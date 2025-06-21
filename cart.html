@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body class="cart">
+    <nav class="navbar">
+        <div class="logo-container">
+        <a href="main.html"><img class="logo" src="images/pizzalog.png" alt="Logo" /></a>
+        <div class="logo-text-group">
+            <span class="logo-text">PIZZA HOUSE</span>
+            <span class="logo-subtext">SLICE INTO HAPPINESS</span>
+        </div>
+        </div>
+        <ul class="nav-links">
+        <li><a href="main.html"><i class="fa-solid fa-arrow-left"></i></a></li>
+        </ul>
+    </nav>
+
+    <div class="cart-cont">
+    <div id="foodCartContainer" class="food-cart-container"></div>
+    <button id="clearCartButton" class="box submit clear">Clear Cart</button>
+    </div>
+
+    
+<div class="popupForm" id="orderForm">
+  <div class="form-content">
+    <span class="closebtn" id="closeForm">&times;</span>
+    <h2 class="box">Place Your Order</h2>
+    <form action="">
+      <input type="text" name="user_name" placeholder="Your Name" class="box" required>
+      <input type="text" name="user_address" placeholder="Address" class="box" required>
+      <input type="email" name="user_email" placeholder="Email" class="box" required>
+      <textarea name="instructions" placeholder="Special Instructions" class="box"></textarea>
+      <input type="submit" value="Confirm Order" id="submitOrder" class="box submit">
+    </form>
+  </div>
+</div>
+
+</body>
+<script src="cart.js"></script>
+</html>

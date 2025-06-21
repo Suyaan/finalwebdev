@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pizza House</title>
+  <link rel="icon" href="images/pizzalog.png">
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo-container">
+        <a href="#home"><img class="logo" src="images/pizzalog.png" alt="Logo" /></a>
+        <div class="logo-text-group">
+            <span class="logo-text">PIZZA HOUSE</span>
+            <span class="logo-subtext">SLICE INTO HAPPINESS</span>
+        </div>
+        </div>
+        <ul class="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About Us</a></li>
+        <li><a href="#menu" class="nav-link">Menu</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li><a href="cart.html"><i class="fa-duotone fa-solid fa-cart-shopping"></i></a></li>
+        </ul>
+    </nav>
+
+  <section id="home">
+    <div class="home-text animate-on-scroll slide-in-left">
+      <h1>Welcome to <span class="title">Pizza House</span></h1>
+      <p>At Pizza House, every bite is a step closer to pure joy. From our crispy crusts to our rich, melty toppings, we craft pizzas that turn every meal into a feel-good moment you'll want to come back to.</p>
+    </div>
+    <div class="home-image">
+      <img src="images/pizza.png" class="home-pizza" alt="">
+    </div>
+  </section>
+
+  <section id="about">
+  <div class="about-video-banner animate-on-scroll slide-in-up">
+    <video autoplay muted loop playsinline>
+      <source src="images/pizza.mp4" type="video/mp4" />
+    </video>
+    <div class="video-overlay-text">
+      <p>We make the best pizzas in town with love and fresh ingredients!</p>
+    </div>
+  </div>
+    
+    
+    <div class="best-seller">
+    <div class="best-seller-image animate-on-scroll slide-in-left">
+      <img src="images/best.png" alt="Best Seller Pizza">
+    </div>
+    <div class="best-seller-text animate-on-scroll slide-in-right">
+      <h3>Our Best Seller</h3>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <p>The Four Cheese Pizza features a rich blend of mozzarella, cheddar, parmesan, and blue cheese, perfectly melted together. Topped with a delicious mix of fresh veggies and savory meats, it’s a crowd-pleaser loved by many!</p>
+      <a href="#menu" class="cta-button">Buy Now</a>
+      
+    </div>
+    </div>
+
+    <div class="chefs-section">
+    <h3>Meet Our Chefs</h3>
+    <div class="chefs-grid animate-on-scroll slide-in-up">
+      <div class="chef-card">
+        <img class="chef" src="images/chef1.png" alt="Chef Mario">
+        <p>Chef Mario - Italian Cuisine Master</p>
+      </div>
+      <div class="chef-card">
+        <img class="chef" src="images/chef2.png" alt="Chef Anna">
+        <p>Chef Anna - Dough & Crust Specialist</p>
+      </div>
+      <div class="chef-card">
+        <img class="chef" src="images/chef3.png" alt="Chef Lee">
+        <p>Chef Lee - Flavor & Fusion Expert</p>
+      </div>
+    </div>
+  </section>
+
+<section id="menu">
+  <h1>Menu</h1>
+  <div class="menu-container">
+    <div class="menu-item">
+      <img src="images/tomato.png" class="piz1" alt="Pizza 1" />
+      <h3>Margherita Pizza</h3>
+      <p>Fresh and simple with tomato as the star</p>
+      <p>Price: ₱259</p>
+      <div class="quantity-controls">
+        <button class="minus">−</button>
+        <span class="quantity">0</span>
+        <button class="plus">+</button>
+      </div>
+      <div class="buy-cart">
+      <button class="buy">Buy</button>
+      <button class="to-cart">Cart</button>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <img src="images/beef.png" class="piz2" alt="Pizza 2" />
+      <h3>Beef Pizza</h3>
+      <p>Beef and minced meats on a cheesy base</p>
+      <p>Price: ₱279</p>
+      <div class="quantity-controls">
+        <button class="minus">−</button>
+        <span class="quantity">0</span>
+        <button class="plus">+</button>
+      </div>
+      <div class="buy-cart">
+      <button class="buy">Buy</button>
+      <button class="to-cart">Cart</button>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <img src="images/cheezie.png" class="piz3" alt="Pizza 3" />
+      <h3>Four Cheese Pizza</h3>
+      <p>A blend of mozzarella, cheddar, parmesan, and blue cheese</p>
+      <p>Price: ₱329</p>
+      <div class="quantity-controls">
+        <button class="minus">−</button>
+        <span class="quantity">0</span>
+        <button class="plus">+</button>
+      </div>
+      <div class="buy-cart">
+      <button class="buy">Buy</button>
+      <button class="to-cart">Cart</button>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <img src="images/hot.png" class="piz4" alt="Pizza 4" />
+      <h3>Hot Delight Pizza</h3>
+      <p>Loaded with chilli flakes, bell peppers, onions, and jalapenos</p>
+      <p>Price: ₱269</p>
+      <div class="quantity-controls">
+        <button class="minus">−</button>
+        <span class="quantity">0</span>
+        <button class="plus">+</button>
+      </div>
+      <div class="buy-cart">
+      <button class="buy">Buy</button>
+      <button class="to-cart">Cart</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="contact">
+  <div class="container">
+    
+    <iframe class="map slide-in-up" 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1617.0403061141374!2d120.99083360289973!3d14.59830544239729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c9f756356fb3%3A0x4a5b4c5512a476ea!2sMendiola%20St%2C%20City%20Of%20Manila%2C%201008%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1749647822253!5m2!1sen!2sph" 
+      allowfullscreen="" loading="lazy" 
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+<div class="form-section">
+  <div class="info">
+    <h1>Contact Us</h1>
+    <p>City Of Manila, 1008 Metro Manila</p>
+    <p>Email: pizzahouse@gmail.com</p>
+
+    <div class="socmed-icons">
+      <a href="https://facebook.com" target="_blank" class="icon fb"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://instagram.com" target="_blank" class="icon ig"><i class="fab fa-instagram"></i></a>
+      <a href="https://twitter.com" target="_blank" class="icon tw"><i class="fa-brands fa-x-twitter"></i></a>
+    </div>
+  </div>
+
+  <form method="POST" action="contact.php">
+    <input type="text" name="firstname" placeholder="Firstname" required class="box">
+    <input type="text" name="lastname" placeholder="Lastname" required class="box">
+    <input type="email" name="email" placeholder="Email" required class="box">
+    <input type="number" name="phone" placeholder="Phone" required class="box">
+    <textarea name="message" placeholder="Message" required class="box"></textarea>
+    <input type="submit" value="Send Message" class="box submit">
+  </form>
+</div>
+</div>
+</section>
+
+<div class="popupForm" id="orderForm">
+  <div class="form-content">
+    <span class="closebtn" id="closeForm">&times;</span>
+    <h2 class="box">Place Your Order</h2>
+    <form action="">
+      <input type="text" name="user_name" placeholder="Your Name" class="box" required>
+      <input type="text" name="user_address" placeholder="Address" class="box" required>
+      <input type="email" name="user_email" placeholder="Email" class="box" required>
+      <textarea name="instructions" placeholder="Special Instructions" class="box"></textarea>
+      <input type="submit" value="Confirm Order" id="submitOrder" class="box submit">
+    </form>
+  </div>
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
